@@ -44,5 +44,17 @@ Borda: 4 quadrados de espessura (padrão recomendado para garantir a leitura).
 
 Cores: Código em preto (black) com fundo branco (white).
 
+
+---
+
+## 📦 Como Gerar o Arquivo Executável (.exe)
+
+O projeto inclui um script de automação que utiliza a biblioteca `PyInstaller` para transformar o código Python em um arquivo executável independente. Isso permite que qualquer pessoa execute o gerador de QR Code no Windows, mesmo **sem ter o Python instalado**.
+
+### 1. Instalar o PyInstaller
+Se ainda não o fez, instale o PyInstaller no seu terminal:
+```bash
+pip install pyinstaller
+
 📝 Licença
 Este projeto é livre para uso, modificação e distribuição.
